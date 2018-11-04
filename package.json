@@ -1,0 +1,25 @@
+{
+  "name": "rate-limit-scheduler-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Leo Bernard <admin@leolabs.org>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "tsc && node ./lib/index.js"
+  },
+  "dependencies": {
+    "dotenv-safe": "^6.1.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "signale": "^1.3.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6"
+  },
+  "devDependencies": {
+    "@types/dotenv-safe": "^5.0.1",
+    "@types/node": "^10.12.2",
+    "@types/request-promise-native": "^1.0.15",
+    "@types/signale": "^1.2.0"
+  }
+}
