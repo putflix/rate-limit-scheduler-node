@@ -8,6 +8,9 @@
   "scripts": {
     "start": "tsc && node ./lib/index.js"
   },
+  "engines": {
+    "node": "10.x"
+  },
   "dependencies": {
     "dotenv-safe": "^6.1.0",
     "request": "^2.88.0",
