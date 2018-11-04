@@ -21,7 +21,6 @@ const pushToQueue = (jobs: Job[]) => {
 }
 
 const main = async (url: string, limit: number = 10) => {
-
     while(true) {
         try {
             logger.await(`Fetching new jobs...`);
