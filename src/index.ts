@@ -65,7 +65,7 @@ const main = async (url: string, limit: number = 10) => {
                 }
             }
         } catch(e) {
-            console.error(e.message);
+            logger.error(e.message);
         }
     }
 }
